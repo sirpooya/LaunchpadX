@@ -7,6 +7,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1</title>
+            <pubDate>Fri, 10 Jul 2026 23:15:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>LaunchpadX 1.1</h2>
+                <p>A test update to prove the self-update loop works end to end.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/sirpooya/LaunchpadX/releases/download/v1.1/LaunchpadX-1.1.zip"
+                sparkle:version="2"
+                sparkle:shortVersionString="1.1"
+                sparkle:edSignature="zA3e2KQnuAHilqgdQIUitCNlMI/1mnzB7/aBAZBX7QgYE1OarJiRV5Ime3UrWzMil8xKuH6cGRt0FNokDP7SCg=="
+                length="3572115"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0</title>
             <pubDate>Fri, 10 Jul 2026 23:05:00 +0000</pubDate>
             <sparkle:version>1</sparkle:version>
