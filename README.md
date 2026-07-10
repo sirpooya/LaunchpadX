@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="header.png" alt="LaunchpadX" width="100%">
+
 # LaunchpadX
 
 **The Launchpad Apple took away — back for macOS Tahoe.**
