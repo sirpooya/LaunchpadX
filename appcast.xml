@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>LaunchpadX</title>
+        <link>https://sirpooya.github.io/LaunchpadX/appcast.xml</link>
+        <description>Updates for LaunchpadX — the Launchpad replacement for macOS Tahoe.</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0</title>
+            <pubDate>Fri, 10 Jul 2026 23:05:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>LaunchpadX 1.0</h2>
+                <p>First release — the Launchpad replacement for macOS Tahoe.</p>
+                <ul>
+                    <li>Full-screen app grid with drag-to-folder.</li>
+                    <li>Fuzzy search, pages, live wallpaper backdrop.</li>
+                    <li>Open with a hotkey, the menu-bar icon, or a four-finger pinch.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/sirpooya/LaunchpadX/releases/download/v1.0/LaunchpadX-1.0.zip"
+                sparkle:version="1"
+                sparkle:shortVersionString="1.0"
+                sparkle:edSignature="2lecVeQMSlttvF2V104j8xz0nFF+tMNk9IbOiXDXW0/In31AHDvIiq8WR08U4HWubhVFn6l9jgEeSpOdDG55CA=="
+                length="3572108"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
