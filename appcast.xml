@@ -6,7 +6,43 @@
         <description>Updates for LaunchpadX — the Launchpad replacement for macOS Tahoe.</description>
         <language>en</language>
 
-                <item>
+                        <item>
+        <title>Version 1.2.1</title>
+        <pubDate>Sat, 11 Jul 2026 19:56:52 +0000</pubDate>
+        <sparkle:version>4</sparkle:version>
+        <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+        <description><![CDATA[
+<h2>LaunchpadX 1.2.1</h2>
+<h3>Changed</h3>
+<ul>
+<li>Opening a folder now settles its icons in a gentle wave — the top row lands</li>
+</ul>
+<p>first and each row below ripples in just behind it, instead of every icon</p>
+<p>arriving at once. Closing collapses back the same way.</p>
+<h3>Fixed</h3>
+<ul>
+<li>The app could freeze completely on launch (clicks and shortcuts dead, force</li>
+</ul>
+<p>quit required) when the updater hit an error behind the full-screen launcher.</p>
+<p>Updater problems no longer block the app, and update windows now appear in</p>
+<p>front of the launcher instead of invisibly behind it.</p>
+<ul>
+<li>If the app ever stalled, it could take the whole Mac&#x27;s keyboard and trackpad</li>
+</ul>
+<p>down with it — only the cursor kept moving, and a restart was the only way</p>
+<p>out. The app&#x27;s shortcut and pinch listeners now run independently, so a</p>
+<p>stall in the app can no longer freeze input for the rest of the Mac.</p>
+        ]]></description>
+        <enclosure
+            url="https://github.com/sirpooya/LaunchpadX/releases/download/v1.2.1/LaunchpadX-1.2.1.zip"
+            sparkle:version="4"
+            sparkle:shortVersionString="1.2.1"
+            sparkle:edSignature="QVGUJhqyjLoZo/r9Zeldozw3CgVBnCQb383Us/7E1KZvQfnKvgToKknjji/ddWOvc/k72Reo+p0ZJ12mNL6sBw==" length="3831440"
+            type="application/octet-stream" />
+    </item>
+
+<item>
         <title>Version 1.2</title>
         <pubDate>Fri, 10 Jul 2026 22:00:25 +0000</pubDate>
         <sparkle:version>3</sparkle:version>
