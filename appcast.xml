@@ -6,7 +6,56 @@
         <description>Updates for LaunchpadX — the Launchpad replacement for macOS Tahoe.</description>
         <language>en</language>
 
-                        <item>
+                                <item>
+        <title>Version 1.3</title>
+        <pubDate>Wed, 15 Jul 2026 20:33:21 +0000</pubDate>
+        <sparkle:version>5</sparkle:version>
+        <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+        <description><![CDATA[
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; font-size: 13px;
+         line-height: 1.45; color: #1d1d1f; margin: 0; }
+  h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  h3 { font-size: 11px; font-weight: 600; text-transform: uppercase;
+       letter-spacing: .04em; color: #6e6e73; margin: 14px 0 4px; }
+  ul { margin: 0 0 8px; padding-left: 18px; }
+  li { margin: 2px 0; }
+  p  { margin: 4px 0; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f5f5f7; }
+    h3   { color: #a1a1a6; }
+  }
+</style>
+<h2>LaunchpadX 1.3</h2>
+<h3>Added</h3>
+<ul>
+<li>Newly installed apps now show a small **blue &quot;new&quot; dot** at the top-right of their icon. The dot appears for apps added in the last week that you haven&#x27;t opened yet, and clears automatically once a week passes or the first time you open the app — from LaunchpadX, Finder, the Dock, anywhere.</li>
+<li>Settings ▸ Advanced now has a **Reveal Logs** button. If something misbehaves, click it and drag the log file into a bug report.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Opening Launchpad now zooms the grid in the way the original macOS Launchpad did — the icons start slightly oversized and settle inward toward the center as they fade in, instead of growing outward. Closing reverses it.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Opening or closing a large folder (one tall enough to scroll) no longer draws its flying icons outside the folder window — the shelf now crops the animation to its own glass edges.</li>
+<li>The **Start at Login** setting now actually works — turning it on adds LaunchpadX to your macOS Login Items so it launches when you sign in, and turning it off removes it. (It was previously off by default and had no effect.)</li>
+<li>Fixed a crash that could happen when using the trackpad pinch or the F4 key, especially right after granting or changing the app&#x27;s Accessibility permission.</li>
+<li>Changing the app&#x27;s Accessibility permission while it&#x27;s running no longer makes the trackpad and keyboard stutter — the pinch and F4 shortcut switch off cleanly and turn back on the moment you re-grant permission.</li>
+<li>Import, Export, and their error messages now close the launcher first, so the file dialog can&#x27;t get stuck invisibly behind it.</li>
+<li>Opening the launcher when no display is available no longer risks a crash.</li>
+</ul>
+        ]]></description>
+        <enclosure
+            url="https://github.com/sirpooya/LaunchpadX/releases/download/v1.3/LaunchpadX-1.3.zip"
+            sparkle:version="5"
+            sparkle:shortVersionString="1.3"
+            sparkle:edSignature="737yy1BxdU69WU2f0rYtAr5Pndg8XZih92jO1k779j5UdiZnUJSWHKCu5Ep2YD2QKRpf3JoeR6aToT97u6FjCQ==" length="3856734"
+            type="application/octet-stream" />
+    </item>
+
+<item>
         <title>Version 1.2.1</title>
         <pubDate>Sat, 11 Jul 2026 19:56:52 +0000</pubDate>
         <sparkle:version>4</sparkle:version>
